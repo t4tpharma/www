@@ -17,78 +17,170 @@ z██████████        /_/    /_/ /_/ /_/   /_/ /_/_/  |_/_/ |_/
 -->
 <html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <meta name="description" content="t4tpharma.com" />
-  <meta property="og:title"       content="t4tpharma.com" />
-  <meta property="og:description" content="t4tpharma.com" />
+  <meta name="description" content="t4tpharma.org" />
+  <meta property="og:title"       content="t4tpharma.org" />
+  <meta property="og:description" content="t4tpharma.org" />
 
   <body>
-    <div class="holderh">
-      <div class="holder">
-        <div class="overlay">
+    <section id="header">
+      <article>
+        <center>
           <video autoplay loop playsinline style="pointer-events: none;">
-            <source src="vial.mp4" type='video/mp4; codecs="hvc1"'>
-            <source src="vial.webm" type="video/webm">
+              <source src="vial.mp4" type='video/mp4; codecs="hvc1"'>
+              <source src="vial.webm" type="video/webm">
           </video>
-          <div class="bold" >if nature is unjust</div>
-          <div class="text" >change nature</div>
-        </div>
-        <canvas id="canvas" class="bg" width="1600" height="1320">
-      </div>
-    </div>
+        </center>
+        <div class="bold">if nature is unjust</div>
+        <div class="text">change nature</div>
+      </article>
+    </section>
+    <nav>
+      <a href="#hi">Introduction</a>
+      <a href="#how">Instructions</a>
+      <a href="#what">Information</a>
+      <a href="#why">Inspiration</a>
+    </nav>
+    <section id="hi">
+      <article>
+        <h2>Introduction</h2>
+        <p>T4T Pharma provides injectable estradiol for <b>emergency use only</b>.</p>
+        <p>The specific formula of this injectable was selected for easy distribution and long shelf life in times of a national supply crisis. If you have other means to access HRT medication, we strongly recommend using commercial products.</p>
+        <p>This being said, this site provides information to make the application of Estradiol Enanthate as safe and convinient as possible. Thank you for your trust.</p>
+      </article>
+    </section>
+    <section id="how">
+      <article>
+        <h2>Instructions</h2>
+        <p>This injection is best administered using <b>intramuscular injection</b> into the thighs <a href="#im">[1]</a> once a week <a href="#een">[2]</a>. There is plenty of information on how to self-administer IM medication on the internet. The following highlights info that is specific to 40mg / ml Estradiol Enanthate.</p>
+        <p>Check the vial for any contamination. Small air bubbles are normal, any solids or strings floating in solution are signs for contamination. Do not use a contaminated vial. Wipe down the top of the vial using an alcohol swab <b>before every use</b>. Using a 23G or 25G needle <a href="#bio">[3]</a> attached to a 1ml syringe, withdraw <b>0.2ml</b> of solution <a href="#dose">[4]</a>.</p>
+        <p>Remove the needle used for withdrawing and swap it for a 25G or 27G, 1" or 1-1/2" needle. Since the concentration of estradiol is fairly high, it is important to have good control over the small amount of liquid you are injecting. Be aware of dead volume in the tip of the syringe and the needle itself. Push in the syringe until you see a drop of liquid forming at the tip of the injection needle. Whatever volume is left in the syringe after priming is the amound of liquid that will end up in your body. You will learn that you actually need to withdraw 0.25 - 0.3ml of liquid in order to deliver 0.2ml of estradiol. Administer the injection into your muscle tissue at least 1 inch deep.</p>
+        <p>After use, we recommend replacing the pink vial cap after opening a vial to protect the diaphram from dust between injections. Store the vial in a dark place at room temperature <a href="#storage">[5]</a>. If your room gets above 25°C (77°F) during summer, store the vial in a fridge and remove it 2-3h before use.</p>
+      </article>
+    </section>
+    <section id="what">
+      <article>
+        <h2>Information</h2>
+        <p id="im"><b>[1] IM vs subQ:</b> Estradiol enanthate can be administered both intramuscular and subcuntanious. While many people prefer subQ injections, we recommend to start with IM injection: 40 mg / ml Estradiol Enanthate contains a high concentration of benyzl alcohol as a preservative. This makes distribution easier and allows for a longer period of safe use after the vial is opened. Unfortuantly, benzyl alcohol is know to commonly cause adverse side effects like itching, swelling, reddening of the skin and pain. Most of these effects only occur in the skin layer and do not cause issues if the injection is applied into muscle tissue. This is different for everyone, hence we encourage you to try if subQ injections work for you since it is arguably more convinient and provides the same absorption rate into the bloodstream [?].</p>
+        <p id="een"><b>[2] Estradiol Enanthate:</b></p>
+        <p id="bio"><b>[3] Avoiding Contamination:</b> If used correctly, one 10ml vial of Estradiol Enanthate can last up to a year (50 weeks of weekly 0.2ml injections). While the estradiol and carrier are sterile and fairly stable in unopened state, the largest risk for your vial to go bad is from external contamination. External contamination can occur if bacteria or funghi are introduced to the vial from contaminated withdrawal needles, or more likely, dirt builing up on top of the diaphram. To make sure the diaphram maintains a good seal until the vial is empty, use the smallest needle size possible.</p>
+        <p id="dose"><b>[4] Dosage:</b> </p>
+        <p id="storage"><b>[5] Storage:</b></p>
+      </article>
+    </section>
+    <section id="why">
+      <article>
+        <h2>Inspiration</h2>
+        <p>Lorem Ipsum</p>
+      </article>
+    </section>
   </body>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap');
+
     body {
+      font-family: poppins, sans-serif;
+      margin: 0px;
+    }
+
+    nav {
+      background-color: #26182e;
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+      position: sticky;
+      top: 0px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0px 20px;
+      font-size: 1.3em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      min-height: 50vh;
+    }
+
+    section#header {
+      background: linear-gradient(164deg, rgba(123,134,232,1) 0%, rgba(246,140,255,1) 52%, rgba(255,222,50,1) 100%);
+      min-height: 30vh;
+    }
+
+    section#hi {
       background: #e8d3ed;
-      margin: 0;
+      color: black;
     }
-    .holder {
-        position: relative;
-        width: 100vw;
+
+    section#how {
+      background: #f5a2cf;
+      color: black;
     }
-    .holderh {
-        width: 100vw;
-        max-width: 100vw;
-        overflow: hidden;
-        height: 100vh;
+
+    section#what {
+      background: #e978a1;
+      color: black;
     }
-    .bg {
-        z-index: 1;
-        top: 50vh;
-        transform: translateY(-40%);
-        left: 0;
-        position: absolute;
-        width: 100%;
-        height: auto;
+
+    section#why {
+      background-color: #85FFBD;
+      background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 50%, #ffffff 100%);
+      color: #084012;
     }
-    .overlay {
-        z-index: 2;
-        position: absolute;
-        top: 50vh;
-        transform: translateY(-55%);
-        width: calc(90% - 48px);
-        margin-left: 5%;
-        margin-right: 5%;
-        padding: 24px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-family: Open Sans;
-        color: #000000;
-        text-align: center;
+
+    article {
+      width: 90%;
+      max-width: 800px;
+      padding: 20px;
+      margin: 0px auto;
     }
+
+    h2 {
+      text-align: center;
+      padding: 20px 0px 0px 0px;
+      font-size: 3em;
+    }
+
+    p {
+      font-size: 1.5em;
+      text-align: block;
+    }
+
     .text {
         padding: 1vh;
         letter-spacing: 1px;
         font-size: 2vmax;
         white-space: pre-wrap;
+        text-align: center;
     }
     .bold {
         padding: 8px;
         text-align: center;
         font-size: 3vmax;
         white-space: pre-wrap;
+    }
+
+    @media
+    (prefers-reduced-motion: no-preference) {
+      html {
+        scroll-behavior: smooth;
+      }
+    }
+
+    @media screen and (max-width: 800px) {
+      body {
+        font-size: 14px;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      body {
+        font-size: 11px;
+      }
     }
   </style>
 </html>
